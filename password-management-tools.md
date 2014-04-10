@@ -3,11 +3,6 @@ layout: default
 description: Tools for managing password
 ---
 
-About
------
-
-Lorem ipsum.
-
 1Password
 ---------
 
