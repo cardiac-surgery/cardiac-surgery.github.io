@@ -17,6 +17,10 @@ description: List of site vulnerability statements
 			<div class="large-3 columns right safedate">
 				<h5>Safe: {{vendor.safedate}}</h5>
 			</div>
+			{% elsif vendor.unaffected %}
+			<div class="large-3 columns right safe">
+				<h5>Safe: unaffected</h5>
+			</div>
 			{% else %}
 			<div class="large-3 columns right notsafe">
 				<h5>Not Safe</h5>
