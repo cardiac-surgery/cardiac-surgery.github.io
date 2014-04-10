@@ -38,11 +38,16 @@ advice.
  * Do not make a password which consists of a few full words; XKCD was wrong
  * Keep written records of the mnemonic somewhere safe; if you know how to use
    encryption software, then that's the safest (and you don't need to write
-   down the passphrase), but if you're more worried about attackers breaking
-   down your door than about forgetting a password of mnemonic, then:
+   down the single passphrase, _if_ you can remember it), but if you're more
+   worried about attackers breaking down your door than about forgetting a
+   password or mnemonic, then:
    - you have a strange life;
    - use a password management tool instead.
  * Don't use a password less than 10 characters.  Aim to be a little longer.
+   - It's getting ridiculously easy to brute force shorter strings and for
+     historical reasons, 8 characters was a long-term limit on password
+     length, so attack tools focus on that as a limit
+   - Do please go longer than 10 characters!
  * You _might_ end up having to avoid some characters for badly broken
    websites which can't handle them; if `&` or `'` or `"` results in weird
    error messages instead of “password not allowed, here's the allowed
