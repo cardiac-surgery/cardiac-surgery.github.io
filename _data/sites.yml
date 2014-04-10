@@ -71,6 +71,13 @@
   homepage: https://opbeat.com/
   blogpost: http://blog.opbeat.com/posts/amateur-hour-at-aws/
   developer: true
+  comments: blog post tracks what they saw from one of their providers, but they haven't communicated to their own customers the status of changing keys
+
+- site: Prgmr
+  homepage: http://prgmr.com/xen/
+  blogpost: http://blog.prgmr.com/xenophilia/2014/04/update-on-the-heartbleed-situa.html
+  developer: true
+  unaffected: true
 
 - site: Yahoo, Inc
   hidden: true
