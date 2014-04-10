@@ -8,7 +8,7 @@ It doesn't consider the threat models, it doesn't consider human fallibility.
 
 You do not want to remember many passwords.
 You should remember as few passwords as possible, while still using a different password for every site.
-So the best solution is to use one of the [[password management tools]] and let it generate very strong passwords for you.
+So the best solution is to use one of the [password management tools][] and let it generate very strong passwords for you.
 
 Then you just remember your password to get into that tool, and perhaps one or
 two others where you have no choice, such as for buying things on a tablet
@@ -47,3 +47,5 @@ advice.
    websites which can't handle them; if `&` or `'` or `"` results in weird
    error messages instead of “password not allowed, here's the allowed
    characters” then stop using the site -- it's dangerously broken.
+
+[password management tools]: password-management-tools
