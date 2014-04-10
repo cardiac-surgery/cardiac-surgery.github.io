@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Cardiac Surgery</title>
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/normalize.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+
+</head>
+<body>
+
+  <!-- Header and Nav -->
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Is there a doctor in the house?</h1>
+    </div>
+  </div>
+
+  <!-- End Header and Nav -->
+
+
+  <div class="row">
+
+    <!-- Nav Sidebar -->
+    <div class="large-3 columns">
+    <h1><img src="/assets/img/heartbleed.png" /></h1>
+      <ul class="side-nav">
+        <li><a href="/">What's Happening?</a></li>
+        <li><a href="/list">The List</a></li>
+        <li><a href="/password-creation-advice">Tools</a></li>
+        <li><a href="/password-management-tools">Password Advice</a></li>
+        <li><a href="{{site.github.repository_url}}" target="_blank">Contribute</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="large-9 columns">
+
+      <h3>{{page.title}} <small>{{page.subtitle}}</small></h3>
+
+      {{content}}
+
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>Created by <a href="https://github.com/klobucar">Jonathon Klobucar</a> and <a href="https://github.com/philpennock">Phil Pennock</a></p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="/">What's Happening?</a></li>
+            <li><a href="/list">The List</a></li>
+            <li><a href="/password-creation-advice">Tools</a></li>
+            <li><a href="/password-management-tools">Password Advice</a></li>
+            <li><a href="{{site.github.repository_url}}" target="_blank">Contribute</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

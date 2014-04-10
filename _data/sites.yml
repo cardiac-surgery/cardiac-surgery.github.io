@@ -1,0 +1,85 @@
+- site: Yoyodyne, Inc
+  homepage: http://www.example.com/
+  blogpost: blahblah-url
+  safedate: whenever
+  comments: "this was fixed on 2014-04-12 but they finish getting the old certificate revoked for three more weeks, thus the later date shown; this affects their Xmail and Xcalendar products too."
+  hidden: true
+
+- site: Amazon (consumer)
+  hidden: true
+  consumer: true
+
+- site: Amazon Web Services AWS (for developers)
+  homepage: http://aws.amazon.com/
+  blogpost: http://aws.amazon.com/security/security-bulletins/aws-services-updated-to-address-openssl-vulnerability/
+  comment: this only fixes heartbleed, each developer-customer needs to do the rest of the clean-up steps, after 2014-04-08
+  developer: true
+
+- site: Ars Technica
+  homepage: http://arstechnica.com/
+  blogpost: http://arstechnica.com/security/2014/04/dear-readers-please-change-your-ars-account-passwords-asap/
+  safedate: 2014-04-08
+  consumer: true
+
+- site: Evernote
+  homepage: https://evernote.com/
+  blogpost: http://blog.evernote.com/blog/2014/04/10/evernote-service-unaffected-openssl-bug/
+  unaffected: true
+  consumer: true
+  comments: “Evernote does not use, and has not used, OpenSSL”
+
+- site: Facebook
+  hidden: true
+  consumer: true
+
+- site: F5
+  developer: true
+  blogpost: http://support.f5.com/kb/en-us/solutions/public/15000/100/sol15159.html
+  comments: F5 sell loadbalancers, which go in front of servers and act as the server-side end-point for TLS (HTTPS); F5 have strong market share; some models, in some versions, are vulnerable.
+
+- site: GitHub
+  homepage: https://github.com/
+  blogpost: https://github.com/blog/1818-security-heartbleed-vulnerability
+  safedate: 2014-04-08
+  consumer: true
+  developer: true
+
+- site: Google, Inc
+  homepage: https://www.google.com/
+  blogpost: http://googleonlinesecurity.blogspot.com/2014/04/google-services-updated-to-address.html
+  safedate: 2014-04-09
+  comments: most consumer services you're likely to use were fixed by that safe-date; see the blogpost for more details. You probably need to also cycle "Application-specific passwords".
+  consumer: true
+  developer: true
+
+- site: Heroku
+  homepage: https://www.heroku.com/
+  blogpost: https://status.heroku.com/incidents/606
+  safedate: 2014-04-09
+  developer: true
+  comments: Note that this status only describes safety of services provided by Heroku for customer, not Heroku.com's own SSL certs for changing your passwords. Timestamp for that still unknown.
+
+- site: LinkedIn
+  hidden: true
+  consumer: true
+
+- site: MSN
+  hidden: true
+  consumer: true
+
+- site: Opbeat
+  homepage: https://opbeat.com/
+  blogpost: http://blog.opbeat.com/posts/amateur-hour-at-aws/
+  developer: true
+
+- site: Yahoo, Inc
+  hidden: true
+  consumer: true
+
+- site: Twitter, Inc
+  homepage: https://twitter.com/
+  blogpost: http://status.twitter.com/post/82109064906/ssl-security-update
+  unaffected: true
+  comments: Twitter assert that they were never affected by this
+  consumer: true
+

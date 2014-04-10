@@ -1,0 +1,41 @@
+---
+layout: default
+description: List of site vulnerability statements
+---
+{% for vendor in site.data.sites %}
+{% if vendor.hidden != true %}
+<!-- Start item -->
+<div class="row">
+	<div class="large-12 columns">
+		<div class="row">
+			<div class="large-9 columns homepage">
+				<h4><a href="{{ vendor.homepage }}">
+					{{ vendor.site }}
+				</a></h4>
+			</div>
+			{% if vendor.safedate %}
+			<div class="large-3 columns right safedate">
+				<h5>Safe: {{vendor.safedate}}</h5>
+			</div>
+			{% else %}
+			<div class="large-3 columns right notsafe">
+				<h5>Not Safe</h5>
+			</div>
+			{% endif %}
+		</div>
+		<div class="row">
+			<div class="large-12 columns post">
+				<a href="{{ vendor.blogpost }}">{{ vendor.blogpost }}</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns comment">
+				<p>{{vendor.comment}}</p>
+			</div>
+		</div>
+	</div>
+	<hr />
+</div>
+<!-- End item -->
+{% endif %}
+{% endfor %}

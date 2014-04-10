@@ -1,0 +1,8 @@
+markdown: redcarpet
+exclude: [
+	"LICENSE.md",
+	"README.md",
+	"GemFile",
+	"GemFile.lock"
+]
+permalink: pretty

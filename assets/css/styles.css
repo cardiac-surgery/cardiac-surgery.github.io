@@ -1,0 +1,14 @@
+.notsafe h5{
+  color: red;
+  margin-top: 9px;
+}
+
+.safedate h5 {
+  margin-top: 9px;
+
+}
+
+.post,
+.comment {
+  margin-top: 10px;
+}
