@@ -1,14 +1,16 @@
 .notsafe h5{
-  color: red;
+  color: #FF1919;
   margin-top: 9px;
 }
 
 .safedate h5 {
   margin-top: 9px;
+  color: #00B233;
 }
 
 .safe h5 {
   margin-top: 9px;
+  color: #00B233;
 }
 
 .post,
