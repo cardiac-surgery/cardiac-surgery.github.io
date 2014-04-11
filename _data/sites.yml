@@ -74,6 +74,13 @@
   consumer: true
   developer: true
 
+- site: GoDaddy
+  homepage: http://www.godaddy.com/
+  blogpost: http://godaddyblog.com/open-ssl-heartbleed-weve-patched-servers/
+  safedate: 2014-04-09
+  developer: true
+  comment: Certificate Vendor: portal vulnerability, if you purchased your certificate from GoDaddy, then you should re-key, even if your own systems were unaffected.
+
 - site: Google, Inc
   homepage: https://www.google.com/
   blogpost: http://googleonlinesecurity.blogspot.com/2014/04/google-services-updated-to-address.html
