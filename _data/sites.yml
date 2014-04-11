@@ -25,7 +25,8 @@
   homepage: https://www.cacert.org/
   blogpost: https://blog.cacert.org/2014/04/openssl-heartbleed-bug/
   consumer: true
-  comment: The certs generated with CAcert are fine, but the systems used to log into CAcert may have been comprimised.
+  safedate: 2014-04-10
+  comment: The certs generated with CAcert are fine, but the systems used to log into CAcert may have been compromised.  Note that while the blog post is dated the 8th, the list of fixed systems is made in an undated update to the original post; we know the update was in place by the 10th.
 
 - site: Comodo
   homepage: http://www.comodo.com/
