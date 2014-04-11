@@ -68,5 +68,5 @@ We will work with all customers and partner to ensure all affected servers are r
 
 Regards,  
 The Comodo CA team  
-<https://support.comodo.com/>
+<https://support.comodo.com/>  
 <mailto:support@comodo.com>

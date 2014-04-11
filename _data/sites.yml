@@ -31,7 +31,7 @@
   homepage: http://www.comodo.com/
   blogpost: https://cardiac-surgery.github.io/evidence/comodo
   developer: true
-  comment: Comodo avoid mentioning whether or not their own systems, through which certificates are ordered, were vulnerable, thus the lack of a ‘safe’ status.  Also beware the “no-charge reissue policy” claim, as they do _not_ claim no-charge for revoking the old certificate, which remains necessary and one reseller has reported problems trying to persuade Comodo to waive the fees for that.
+  comment: Comodo avoid mentioning whether or not their own systems, through which certificates are ordered, were vulnerable, thus the lack of a ‘safe’ status.  Also beware the “no-charge reissue policy” claim, as they do <em>not</em> claim no-charge for revoking the old certificate, which remains necessary and one reseller has reported problems trying to persuade Comodo to waive the fees for that.
 
 - site: Dropbox
   homepage: https://dropbox.com
