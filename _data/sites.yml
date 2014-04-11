@@ -144,3 +144,9 @@
   comment: Twitter assert that they were never affected by this
   consumer: true
 
+- site: VMware
+  homepage: https://vmware.com/
+  blogpost: http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2076225
+  comment: Unlike various certificate authorities, VMware is being honest. However almost all of the recent product offerings use the affected OpenSSL 1.0.1 that are in the current offering. VMware's web system itself is potentially unaffected, but not mentioned in the article.
+  consumer: true
+
