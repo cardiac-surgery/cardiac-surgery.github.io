@@ -1,9 +1,13 @@
+#### Example (also hidden) #####
+
 - site: Yoyodyne, Inc
   homepage: http://www.example.com/
   blogpost: blahblah-url
   safedate: whenever
   comment: "this was fixed on 2014-04-12 but they finish getting the old certificate revoked for three more weeks, thus the later date shown; this affects their Xmail and Xcalendar products too."
   hidden: true
+
+################################
 
 - site: Amazon (consumer)
   hidden: true
