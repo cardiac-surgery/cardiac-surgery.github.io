@@ -114,6 +114,13 @@
   blogpost: https://cardiac-surgery.github.io/evidence/orchestrate
   comment: Passwords and API keys should be reset based on the email that was sent.
 
+- site: Pinterest
+  homepage: https://pinterest.com
+  consumer: true
+  blogpost: https://help.pinterest.com/en/articles/was-pinterest-impacted-heartbleed-issue
+  comment: Help center suggests users reset their passwords.
+  safedate: 2014-04-09
+
 - site: Prgmr
   homepage: http://prgmr.com/xen/
   blogpost: http://blog.prgmr.com/xenophilia/2014/04/update-on-the-heartbleed-situa.html
