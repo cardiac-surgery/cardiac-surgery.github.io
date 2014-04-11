@@ -118,7 +118,7 @@
   homepage: https://pinterest.com
   consumer: true
   blogpost: https://help.pinterest.com/en/articles/was-pinterest-impacted-heartbleed-issue
-  comment: Help center suggests users reset their passwords. However the post makes no mention of Certs being revoked, or even rotated.
+  comment: Help center suggests users reset their passwords. However the post makes no mention of certs being revoked, or even rotated.
   safedate: 2014-04-09
 
 - site: Prgmr
