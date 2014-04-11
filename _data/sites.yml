@@ -21,6 +21,19 @@
   safedate: 2014-04-08
   consumer: true
 
+- site: CAcert
+  homepage: https://www.cacert.org/
+  blogpost: https://blog.cacert.org/2014/04/openssl-heartbleed-bug/
+  consumer: true
+  comment: The certs generated with CAcert are fine, but the systems used to log into CAcert may have been comprimised.
+
+- site: Dropbox
+  homepage: https://dropbox.com
+  blogpost: https://twitter.com/dropbox_support/status/453673783480832000
+  safedate: 2014-04-08
+  consumer: true
+  comment: "Quick update on #heartbleed: We’ve patched all of our user-facing services & will continue to work to make sure your stuff is always safe."
+
 - site: Evernote
   homepage: https://evernote.com/
   blogpost: http://blog.evernote.com/blog/2014/04/10/evernote-service-unaffected-openssl-bug/
@@ -59,6 +72,13 @@
   developer: true
   comment: Note that this status only describes safety of services provided by Heroku for customer, not Heroku.com's own SSL certs for changing your passwords. Timestamp for that still unknown.
 
+- site: IFTTT
+  homepage: https://ifttt.com
+  consumer: true
+  safedate: 2014-04-09
+  blogpost: https://cardiac-surgery.github.io/evidence/ifttt
+  comment: Passwords should be reset based on the email that was sent.
+
 - site: Leap Motion
   homepage: https://leapmotion.com
   consumer: true
@@ -79,6 +99,13 @@
   blogpost: http://blog.opbeat.com/posts/amateur-hour-at-aws/
   developer: true
   comment: blog post tracks what they saw from one of their providers, but they haven't communicated to their own customers the status of changing keys
+
+- site: Orchestrate
+  homepage: https://orchestrate.io
+  consumer: true
+  safedate: 2014-04-09
+  blogpost: https://cardiac-surgery.github.io/evidence/orchestrate
+  comment: Passwords and API keys should be reset based on the email that was sent.
 
 - site: Prgmr
   homepage: http://prgmr.com/xen/
