@@ -120,6 +120,12 @@
   developer: true
   unaffected: true
 
+- site: RapidSSL
+  homepage: https://www.rapidssl.com/
+  blogpost: https://cardiac-surgery.github.io/evidence/rapidssl.md
+  developer: true
+  comment: RapidSSL avoid mentioning whether or not their own systems, through which certificates are ordered, were vulnerable, thus the lack of a ‘safe’ status.  Much like Comodo, RapidSSL carefully claim “Replacements are free for the lifetime of the certificate”  but do <em>not</em> make this free claim for the cost of revoking the old certificate.
+
 - site: Yahoo, Inc
   hidden: true
   consumer: true
