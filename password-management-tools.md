@@ -36,6 +36,17 @@ KeePass Password Safe
  * <http://keepass.info/>
  * Open source.
  * Windows 2000 / XP / 2003 / Vista / 7 / 8 / Wine, each 32-bit and 64-bit
+ * See next item
+
+
+KeePassX
+--------
+
+ * <https://www.keepassx.org/>
+ * Open source, a variant of KeePass
+ * Is multi-platform, running on Windows, MacOS and Linux
+ * Use [KeePassDroid](http://www.keepassdroid.com/) on Android ([play store link](https://play.google.com/store/apps/details?id=com.android.keepass))
+ * Combine with remote storage providers to be able to sync between those platforms
 
 
 Password Safe
