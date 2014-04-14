@@ -9,6 +9,11 @@
 
 ################################
 
+- site: ACM (Association for Computing Machinery)
+  homepage: http://www.acm.org
+  unaffected: true
+  comment: by sign-in prompt, a notice that “ACM has verified that its servers are not impacted by the Heartbleed OpenSSL vulnerability.”
+
 - site: Amazon (consumer)
   hidden: true
   consumer: true
@@ -58,14 +63,20 @@
   consumer: true
   comment: “Evernote does not use, and has not used, OpenSSL”
 
-- site: Facebook
-  hidden: true
-  consumer: true
-
 - site: F5
   developer: true
   blogpost: http://support.f5.com/kb/en-us/solutions/public/15000/100/sol15159.html
   comment: F5 sell loadbalancers, which go in front of servers and act as the server-side end-point for TLS (HTTPS); F5 have strong market share; some models, in some versions, are vulnerable.
+
+- site: Facebook
+  hidden: true
+  consumer: true
+
+- site: Fitbit
+  homepage: https://www.fitbit.com/
+  blogpost: https://help.fitbit.com/customer/portal/articles/1511991
+  safedate: 2014-04-08
+  comment: no mention of revocation of old certs, but otherwise a near ideal response
 
 - site: GitHub
   homepage: https://github.com/
