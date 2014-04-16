@@ -13,9 +13,9 @@ description: List of site vulnerability statements
 					{{ vendor.site }}
 				</a></h4>
 			</div>
-			{% if vendor.safedate %}
-			<div class="large-3 columns right safedate">
-				<h5>Safe: {{vendor.safedate}}</h5>
+			{% if vendor.safefrom %}
+			<div class="large-3 columns right safefrom">
+				<h5>Safe: {{vendor.safefrom}}</h5>
 			</div>
 			{% elsif vendor.unaffected %}
 			<div class="large-3 columns right safe">
