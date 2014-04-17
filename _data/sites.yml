@@ -3,7 +3,7 @@
 - site: Yoyodyne, Inc
   homepage: http://www.example.com/
   blogpost: blahblah-url
-  safedate: whenever
+  safefrom: whenever
   comment: "this was fixed on 2014-04-12 but they finish getting the old certificate revoked for three more weeks, thus the later date shown; this affects their Xmail and Xcalendar products too."
   hidden: true
 
@@ -27,21 +27,21 @@
 - site: Ars Technica
   homepage: http://arstechnica.com/
   blogpost: http://arstechnica.com/security/2014/04/dear-readers-please-change-your-ars-account-passwords-asap/
-  safedate: 2014-04-08
+  safefrom: 2014-04-08
   consumer: true
 
 - site: CAcert
   homepage: https://www.cacert.org/
   blogpost: https://blog.cacert.org/2014/04/openssl-heartbleed-bug/
   consumer: true
-  safedate: 2014-04-10
+  safefrom: 2014-04-10
   comment: The certs generated with CAcert are fine, but the systems used to log into CAcert may have been compromised.  Note that while the blog post is dated the 8th, the list of fixed systems is made in an undated update to the original post; we know the update was in place by the 10th.
 
 - site: CeroWRT
   homepage: http://www.bufferbloat.net/projects/cerowrt
   blogpost: http://www.bufferbloat.net/news/50
   developer: true
-  safedate: "3.10.36-4"
+  safefrom: "3.10.36-4"
   comment: CeroWRT is a router OS distribution, and certain remote services (VPN) are exposed and affected. You need to upgrade the OS to avoid being vulnerable
 
 - site: Cisco
@@ -59,7 +59,7 @@
 - site: Dropbox
   homepage: https://dropbox.com
   blogpost: https://twitter.com/dropbox_support/status/453673783480832000
-  safedate: 2014-04-08
+  safefrom: 2014-04-08
   consumer: true
   comment: "Quick update on #heartbleed: We’ve patched all of our user-facing services & will continue to work to make sure your stuff is always safe."
 
@@ -82,27 +82,27 @@
 - site: Fitbit
   homepage: https://www.fitbit.com/
   blogpost: https://help.fitbit.com/customer/portal/articles/1511991
-  safedate: 2014-04-08
+  safefrom: 2014-04-08
   comment: no mention of revocation of old certs, but otherwise a near ideal response
 
 - site: GitHub
   homepage: https://github.com/
   blogpost: https://github.com/blog/1818-security-heartbleed-vulnerability
-  safedate: 2014-04-08
+  safefrom: 2014-04-08
   consumer: true
   developer: true
 
 - site: GoDaddy
   homepage: http://www.godaddy.com/
   blogpost: http://godaddyblog.com/open-ssl-heartbleed-weve-patched-servers/
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
   developer: true
   comment: Certificate Vendor; portal vulnerability, if you purchased your certificate from GoDaddy, then you should re-key, even if your own systems were unaffected.
 
 - site: Google, Inc
   homepage: https://www.google.com/
   blogpost: http://googleonlinesecurity.blogspot.com/2014/04/google-services-updated-to-address.html
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
   comment: most consumer services you're likely to use were fixed by that safe-date; see the blogpost for more details. You probably need to also cycle "Application-specific passwords".
   consumer: true
   developer: true
@@ -110,21 +110,28 @@
 - site: Heroku
   homepage: https://www.heroku.com/
   blogpost: https://status.heroku.com/incidents/606
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
   developer: true
   comment: Note that this status only describes safety of services provided by Heroku for customer, not Heroku.com's own SSL certs for changing your passwords. Timestamp for that still unknown.
 
 - site: IFTTT
   homepage: https://ifttt.com
   consumer: true
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
   blogpost: https://cardiac-surgery.github.io/evidence/ifttt
   comment: Passwords should be reset based on the email that was sent.
+
+- site: Kato
+  homepage: https://kato.im/
+  consumer: true
+  safefrom: 2014-04-14
+  blogpost: https://cardiac-surgery.github.io/evidence/kato
+  comment: "Correct response: clearly communicated that OpenSSL was fixed, that new keys were generated and old certs were revoked.  This is how everyone should do it."
 
 - site: Leap Motion
   homepage: https://leapmotion.com
   consumer: true
-  safedate: 2014-04-10
+  safefrom: 2014-04-10
   blogpost: https://cardiac-surgery.github.io/evidence/leap-motion
   comment: Passwords should be reset based on the email that was sent. "Airspace" is potentially effected.
 
@@ -145,7 +152,7 @@
 - site: Orchestrate
   homepage: https://orchestrate.io
   consumer: true
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
   blogpost: https://cardiac-surgery.github.io/evidence/orchestrate
   comment: Passwords and API keys should be reset based on the email that was sent.
 
@@ -154,7 +161,7 @@
   consumer: true
   blogpost: https://help.pinterest.com/en/articles/was-pinterest-impacted-heartbleed-issue
   comment: Help center suggests users reset their passwords. However the post makes no mention of certs being revoked, or even rotated.
-  safedate: 2014-04-09
+  safefrom: 2014-04-09
 
 - site: Prgmr
   homepage: http://prgmr.com/xen/
