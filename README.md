@@ -1,7 +1,7 @@
 cardiac-surgery.github.io
 =========================
 
-This is the site for [https://cardic-surgary.github.io](https://cardic-surgary.github.io)
+This is the site for [https://cardiac-surgery.github.io](https://cardiac-surgery.github.io/)
 We aim to help provide clarity for all users on the internet around what heartbleed is and the damage it caused for 
 most of the users of the internet today.
 
@@ -26,7 +26,8 @@ we're just using the git commit history.
 
 ## Developing locally
 
-1. Install jekyll via bundle `bundle install`
-2. run the site `bundle exec jekyll serve --watch`
-3. Hack away and please try to include a screenshot of the change you made (if visual) in a PR Thanks!
+1. Install jekyll via bundle: `bundle install`
+2. Run the site: `bundle exec jekyll serve --watch`
+3. Hack away and please try to include a screenshot of the change you made (if visual) in a PR
 
+Thanks!
