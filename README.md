@@ -1,11 +1,11 @@
 cardiac-surgery.github.io
 =========================
 
-This is the site for [https://cardiac-surgery.github.io](https://cardiac-surgery.github.io/)
-We aim to help provide clarity for all users on the internet around what heartbleed is and the damage it caused for 
+This was the site for [https://cardiac-surgery.github.io](https://cardiac-surgery.github.io/)
+We aimed to help provide clarity for all users on the internet around what heartbleed is and the damage it caused for 
 most of the users of the internet today.
 
-Please feel free to contribute and help keep this up to date!
+This site has now been unpublished and the repository is "unmaintained".  The code remains online in Git hosting for reference purposes. 
 
 Note: providing a PR is considered an implicit license grant for your
 modifications to be distributed under the same license that the site is
